@@ -312,6 +312,7 @@ h6 {
   width: 100%;
   z-index: 9999;
   background-color: #161616;
+  margin-top: 50px;
 }
 
 #templatemo_logo {
@@ -406,6 +407,7 @@ h6 {
 
 .bx-wrapper {
   background-color: #161616;
+ 
 }
 
 .bx-thumbnail-wrapper {
@@ -493,6 +495,8 @@ h6 {
   -webkit-backface-visibility: hidden;
   /* Chrome, Safari, Opera */
   backface-visibility: hidden;
+  align:center;
+  
 }
 .service-item h3 {
   font-size: 18px;
@@ -511,12 +515,15 @@ h6 {
 }
 .service-item .service-icon.second {
   background-image: url(../images/service-second.png);
+  
 }
 .service-item .service-icon.third {
   background-image: url(../images/service-third.png);
+  
 }
 .service-item .service-icon.fourth {
   background-image: url(../images/service-fourth.png);
+  
 }
 
 /* ==========================================================================
