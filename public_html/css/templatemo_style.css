@@ -346,14 +346,14 @@ h6 {
 }
 .main-menu ul li {
   display: inline-block;
-  width: 150px;
+  width: 160px;
   text-align: center;
   line-height: 102px;
 }
 .main-menu ul li a {
   color: white;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 15px;
   text-transform: uppercase;
   outline: 0;
   border: 0;
@@ -463,7 +463,7 @@ h6 {
   position: absolute;
   text-align: right;
   bottom: 80px;
-  right: -2px;
+  right: 50px;
   z-index: 998;
 }
 .bx-controls-direction a {
@@ -505,19 +505,44 @@ h6 {
   width: 100px;
   height: 113px;
   display: block;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
 }
 .service-item .service-icon.first {
-  background-image: url(../images/service-first.png);
+  background-image: url(../images/products/product1.jpg);
 }
 .service-item .service-icon.second {
-  background-image: url(../images/service-second.png);
+  background-image: url(../images/products/product2.jpg);
 }
 .service-item .service-icon.third {
-  background-image: url(../images/service-third.png);
+  background-image: url(../images/products/product3.jpg);
 }
 .service-item .service-icon.fourth {
   background-image: url(../images/service-fourth.png);
 }
+
+.service-item .tech-icon {
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100px;
+  height: 113px;
+  display: block;
+}
+
+.service-item .tech-icon.first {
+    background-image: url(../images/symfony2.png)
+}
+
+.service-item .tech-icon.second {
+    background-image: url(../images/bootstrap.gif)
+}
+
+.service-item .tech-icon.third {
+    background-image: url(../images/joomla-3-logo.gif)
+}
+
 
 /* ==========================================================================
     Promotion Styling
@@ -686,7 +711,7 @@ input.button {
 }
 
 ul.social {
-  text-align: right;
+  text-align: center;
 }
 ul.social li {
   display: inline-block;
@@ -734,7 +759,7 @@ ul.social li a {
   .main-menu {
     display: none;
     border-top: 1px solid #2f2f2f;
-    text-align: left;
+    text-align: center;
   }
   .main-menu ul li {
     padding: 0;
