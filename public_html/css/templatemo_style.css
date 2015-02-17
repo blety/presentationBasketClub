@@ -505,6 +505,7 @@ h6 {
   width: 100px;
   height: 113px;
   display: block;
+  border:2px solid #26b864;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
@@ -513,7 +514,7 @@ h6 {
   background-image: url(../images/products/product1.jpg);
 }
 .service-item .service-icon.second {
-  background-image: url(../images/products/product2.jpg);
+  background-image: url(../images/rajesh.jpg);
 }
 .service-item .service-icon.third {
   background-image: url(../images/products/product3.jpg);
@@ -800,4 +801,61 @@ ul.social li a {
     opacity: 0;
     filter: alpha(opacity=0);
   }
+}
+/*----------- CAROUSEL BOOTSNIP SETTINGS ----------*/
+.carousel-indicators .active{ 
+  background: #31708f; 
+  } 
+
+.carousel-indicators {
+  bottom: 1px;
+}
+
+.content{ 
+  margin-top:20px;
+  } 
+
+.adjust1{ 
+  float:left;
+  width:100%; 
+  margin-bottom:0;
+  }
+
+.adjust2{ 
+  margin:0;
+ }
+
+.carousel-indicators li{ 
+  border :1px solid #ccc;
+ } 
+
+.carousel-control{ 
+  color:#31708f; 
+  width:5%; 
+  } 
+
+.carousel-control:hover, .carousel-control:focus{ 
+  color:#31708f; 
+  }
+
+.carousel-control.left, .carousel-control.right { 
+  background-image: none; 
+  } 
+
+.media-object{ 
+  margin:auto;
+  margin-top:15%; 
+  } 
+
+@media screen and (max-width: 768px) { 
+  
+  .media-object{ 
+    margin-top:0; 
+    }
+
+.thumbnail img{
+    width: 120px;
+    height: 120px;
+    margin: auto;
+  } 
 }
