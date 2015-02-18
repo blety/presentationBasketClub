@@ -506,23 +506,33 @@ h6 {
   margin: 0 auto;
   background-repeat: no-repeat;
   background-position: center;
-  width: 100px;
-  height: 113px;
+  width: 150px;
+  height: 169px;
   display: block;
 }
 .service-item .service-icon.first {
-  background-image: url(../images/service-first.png);
+  background-image: url(../images/joomla_logo.png);
 }
 .service-item .service-icon.second {
-  background-image: url(../images/service-second.png);
+  background-image: url(../images/symfony_logo.png);
   
 }
 .service-item .service-icon.third {
-  background-image: url(../images/service-third.png);
+  background-image: url(../images/logo_bootstrap.png);
   
 }
 .service-item .service-icon.fourth {
-  background-image: url(../images/service-fourth.png);
+  background-image: url(../images/marouane.jpg);
+  
+}
+
+.service-item .service-icon.fifth {
+  background-image: url(../images/guillaume.jpg);
+  
+}
+
+.service-item .service-icon.sixth {
+  background-image: url(../images/rajesh.jpg);
   
 }
 
